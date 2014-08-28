@@ -1,0 +1,21 @@
+Critic of Cracked.com App
+
+The thumbnails on the article page of the app are different sizes, and it is confusing to look at.
+
+The buttons to seel all articles, videos, etc. are small and it is easy to press the wrong button.
+
+Also the style these buttons are in is not aesthetically pleasing.
+
+Photoshop contest pictures are in slideshow format which can mess up how the pictures are displayed on the screen.
+
+It would also just be easier to navigate if the slideshow was displayed on one page.
+
+Video selection page has very large thumbnails that take a while to load as you browse.
+
+No way to easily navigate between articles placed in the thumbnail across the top on the home page. 
+
+You have to scroll all the way to the top of the article to be prompted with the button that brings you back to previous articles.
+
+Text is small to read considering the length of the articles presented.
+
+It is not clear what the icons on the bottom tool bar actually do.
