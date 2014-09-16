@@ -1,3 +1,4 @@
+
 function launchCamera(){
 
 
@@ -13,3 +14,4 @@ function onSuccess(imageData) {
 function onFail(message) {
     alert('Failed because: ' + message);
 }
+console.log
