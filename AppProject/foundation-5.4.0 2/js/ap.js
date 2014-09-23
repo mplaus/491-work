@@ -1,24 +1,14 @@
-
-function capturePhoto(){
-	//alert("capture button working");
-	navigator.camera.getPicture(uploadPhoto,null,{sourceType:1,quality:60});
+function contactChooser(){
+    var options = new ContactFindOptions();
+    options.fields = ["displayName", "name", "emails", "phoneNumbers"];
+    navigator.contacts.chooseContact( onSuccess, options);
 }
 
-function upoloadPhoto(data){
-	//this is where you would send the image file to server
-}
+function onSuccess(id, contact){
+    var nombre = contact['name']['formatted'];
+    var telefono = contact['phoneNumbers'][0];
 
-	cameraPic.src = data;
-	//cameraPic.src = "data:image/jpeg;base64," + data;
-	// Successful upload to the server
-	navigator.notification.alert(
-		'YOur Photo has been uploaded' //message
-		okay,							//Callback
-		'Photo Uploaded',            //title
-		'OK'						//buttonName
-		);
-}
-
-function okay(){
-		// Do Something
+    console.log(id);
+    console.log(nombre);
+    console.log(telefono);
 }
