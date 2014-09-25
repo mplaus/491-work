@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Wire Frame</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -13,21 +13,27 @@
 <link rel="stylesheet" href="font-awesome.css">   
 <script src="js/ap.js"></script>
   </head>
- 
   <body>
-
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Call Moniter</h1>
+    <div id="top">
+      <div class="row">
+        <div class="large-12 columns">
+          <h1 style="text-align: center">Call Moniter</h1>
+        </div>
       </div>
+            <table>
+              <col span="2" style="background-color:#A0A0A0;">
+              <tr>
+                <th><a href="index2.html" class="button" id="add">Add Phone</a></th>
+                <th>
+                  <div class="switch">
+                    <input id="exampleCheckboxSwitch" type="checkbox">
+                    <label for="exampleCheckboxSwitch"></label>
+                  </div>
+                </th>
+               </tr>
+            </table>
+          <table> 
     </div>
-    <a href="index2.html" class="button" id="add">Add Phone</a>
-    <a class="button" onclick="ap/ap.js">
-    <div class="switch">
-  <input id="exampleCheckboxSwitch" type="checkbox">
-  <label for="exampleCheckboxSwitch"></label>
-  </div>
-    <table> 
       <thead> 
         <tr> 
           <th width="40%">Phone Number</th> 
@@ -38,18 +44,63 @@
           <tr> 
             <td>704-654-8788</td>
             <td><div id="greenlight"></div></td> 
-            <td>9-5</td> 
+            <td>
+              <form>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Select Box
+                      <select>
+                        <option value="husker">Enabled</option>
+                        <option value="starbuck">Work Day</option>
+                        <option value="hotdog">When Sleeping</option>
+                        <option value="apollo">Emergency Only</option>
+                        <option value="never">Never</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </td> 
           </tr> 
           <tr> 
             <td>980-297-3664</td> 
             <td><div id="blacklist"></div></td> 
-            <td>Content Goes Here</td> 
+            <td><form>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Select Box
+                      <select>
+                        <option value="husker">Enabled</option>
+                        <option value="starbuck">Work Day</option>
+                        <option value="hotdog">When Sleeping</option>
+                        <option value="apollo">Emergency Only</option>
+                        <option value="never">Never</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </td> 
           </tr> 
           <tr> 
             <td></td> 
             <td></td> 
-            <td>Content Goes Here</td> 
-          </tr> 
+            <td><form>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Select Box
+                      <select>
+                        <option value="husker">Enabled</option>
+                        <option value="starbuck">Work Day</option>
+                        <option value="hotdog">When Sleeping</option>
+                        <option value="apollo">Emergency Only</option>
+                        <option value="never">Never</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </form></td> 
+          </tr>
           
         </tbody> 
       </table>

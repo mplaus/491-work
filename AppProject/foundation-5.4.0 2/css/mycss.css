@@ -14,3 +14,10 @@
 .button #add{
 	margin-left: 100px;
 }
+#top{
+	background-color:#A0A0A0;
+}
+#buttondivider{
+	column-count: 3;
+	column-gap: 320;
+}
